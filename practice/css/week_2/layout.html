@@ -1,0 +1,187 @@
+
+<html lang="en">
+<head>
+
+
+<title>Layout</title>
+
+
+<style>
+
+    body {
+        background-color: gray;
+        background-image: url("raised-building-frame-169647.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+
+
+    }
+
+    #header h1 {
+        color: red
+    }
+#header {
+    background-color: chartreuse;
+    color: blue;
+    padding: 15px;
+}
+
+#main {
+    
+    color: purple;
+    width: 480px;
+    height: 600px;
+    border: solid 6px black;
+    border-radius: 50px;
+    margin: 25 auto;
+    padding-left: 0;
+    background-color: peachpuff;
+}
+
+#main div {
+    border-radius: 15px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto 10px auto;
+    width: 75%;
+    overflow: auto;
+
+}
+#main div:nth-child(1) {
+    margin-top: 20px;
+}
+#main div P {
+    color: white;
+    font-size: 30px;
+}
+
+#main .odd {
+    background-color: powderblue;
+}
+#main .even {
+
+    background-color: rebeccapurple;
+}
+p {
+    color: skyblue;
+}
+#footer p {
+
+color:red;
+}
+#footer {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: solid 5px black;
+
+}
+#footer h6 {
+    color: white;
+}
+ #footer div h6{
+     color: orchid;
+ }
+
+ #food-list{
+     list-style-type: none;
+     background-color:yellow;
+     text-align:center;
+     width: 700px;
+ }
+
+ #food-list li {
+     display: inline-block;
+     background-color: yellowgreen;
+     margin: 10px auto;
+     padding: 10px;
+    }
+#video {
+
+}
+
+</style>
+
+
+    </head>
+
+    <body>
+<!-- HTML5 version is <header></header>-->
+<div id="header">
+<p> This area is the first div.</p>
+<h1> This is the header for h1 </h1>
+
+</div>
+
+
+
+<!-- HTML5 version is <main></main>-->
+<div id="main">
+
+    <div class="odd">
+        <p> This area is the second div also main.</P>
+</div>
+
+    
+    <div calss="even">  
+    </div>
+    <div Class="odd">  
+
+    </div>
+    <div class="even">  
+
+    </div>
+    <div class="odd">  
+
+
+
+    </div>
+
+     
+    </div>
+
+
+
+
+
+
+<!-- HTML5 version is <footer></footer>-->
+
+<div id="footer">
+    <p>&copy; 2020 Sami Ahmad</P> <!-- if you want to apply properties only in Sami 
+    you can use <span></span> or you can add id like id="myanme"-->
+        <h6> This is the how it shows</h6>
+
+        <div> 
+            <h6> This is really tiny text! </h6>
+        </div>
+
+</div>
+
+<ul id="food-list">
+<li>Sushi</li>
+<li>Cat Food</li>
+<li>Cheese</li>
+<li>Donouts</li>
+<li>pupusas</li>
+<li>Hambureger</li>
+<li>Fried</li>
+<li>steak</li>
+<li>Kabab</li>
+
+</ul>
+
+<div id="video" > <!-- if you want your video in the center we need calculate 
+the width and height and px corectly otherwise it not working -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZdOmCSmI4X0" 
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+    picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
+    </body>
+
+</html>
