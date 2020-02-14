@@ -1,0 +1,53 @@
+body{
+
+    background-color: green;
+}
+
+div#flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#flex-gallery > figure {
+
+    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+  
+
+}
+
+figure{
+
+    width: 200px;
+
+}
+
+figure, figure > img{
+
+    width: 220px;
+}
+figure > img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+figure > img {
+
+    border: solid yellow 3px;
+}
+
+figcaption {
+
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px;
+    color: gray;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

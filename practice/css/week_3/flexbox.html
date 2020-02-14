@@ -11,21 +11,29 @@
     background-color: hotpink;
     width: 500px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    order: -4;
 
 }
  .flexbox-item {
      background-color: lightpink;
-    
      margin: 20px;
+     order: 3;
+    
  }
+    
 #specail-item {
-    flex-grow: 2;
-    flex-shrink: 2;
+    order: 1;
+
 }
+
 #last-item {
-    flex-grow: 3;
+  
+    order: 2;
+
+    /* to bring the last item in to the first row or colum  every item in flexbox have value which is zero*/
 }
+
   </style>
 
  

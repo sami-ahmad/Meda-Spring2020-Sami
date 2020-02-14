@@ -1,0 +1,273 @@
+body{
+
+    background-color: maroon;
+}
+
+header, main, footer  {
+
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 36px;
+  
+}
+header {
+    padding-right: 0;
+    width: 950px;
+}
+
+
+header, main {
+    border-bottom: orangemaroon 5px solid;
+}
+
+header h1{
+
+    font-family: "bold";
+    font-size: 40px;
+    text-align: center;
+    color: maroon;
+    line-height: 80px;
+
+}
+
+
+#logo {
+    float: left;
+
+}
+#title-container {
+    margin-left: 200px;
+}
+nav ul {
+
+    text-align: right;
+}
+nav ul li {
+
+    display: inline-block;
+    background-color: maroon;
+    color:white;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+  
+    font-family: "Arial";
+
+}
+nav ul li:hover{
+    background-color: gray;
+}
+nav ul li a {
+    text-decoration: none; /* removeing the link under the text with we made hyperlink */
+  
+}
+
+nav ul li a:link{
+
+    color: white;
+
+}
+
+
+
+nav ul li a:visited{
+    color: white
+
+}
+
+nav ul li a:hover{ 
+    text-decoration: dotted 2px maroon;
+}
+
+  nav ul li a:active {
+
+    color: pink;
+
+  }
+
+  footer{
+
+    color: maroon;
+    font-family: "Arial";
+    line-height: 48px;
+  }
+#copyright{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#socail-links ul{
+
+    text-align: center;
+
+}
+
+#socail-links ul li {
+
+    display: inline-block;
+    border: solid 2px rgb(100, 233, 12);
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 25px;
+    line-height:100%;
+    box-sizing:border-box;
+}
+
+#socail-links ul li:hover{
+
+    color: white;
+    background-color: orange;
+}
+   
+#socail-links ul li a:link{
+
+    text-decoration: none;
+    color:maroon;
+}
+#socail-links ul li a:visited{
+    color: maroon;
+}
+
+#socail-links ul li a:hover{
+    color: white;
+
+}
+/* FOOTER STYLES END */
+
+
+/* MAIN DEFAULT STYLES START */
+
+main {
+
+    font-family: "Arial";
+    color: rgb(189, 87, 185);
+}
+main h1{
+     font-family: "Zapfino";
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 30px;
+    /* text-transform: capitalize; */
+}
+main p {
+    font-size: 24px;
+}
+
+/* MAIN DEFAULT STYLES END */
+
+
+
+/* HOMEPAGE STYLES START */
+
+
+main#homepage p {
+
+    margin: 20px;
+    line-height: 60px;
+    text-align: justify;
+}
+
+
+/* HOMEPAGE STYLES END */
+
+/* GALLERY STYLE START */
+
+#gallery{
+
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+#gallery div{
+    width: 200px;
+}
+
+#gallery div img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+/* GALLERY STYLE END */
+
+
+
+
+/* CONTACT STYLE START*/
+
+#contact > hr {
+
+    border: solid royalblue 1px;
+
+}
+
+#contact-flexbox{
+
+    display:flex;
+
+}
+
+#contact-flexbox div:first-child{
+
+    flex-grow: 3;
+}
+
+#contact-flexbox div:last-child{
+    flex-grow: 1;
+    background-color: silver;
+}
+#contact-form{
+    width: 450px;
+    margin-left: 20px;
+
+
+}
+#contact-form label {
+
+    font-size: 24px;
+
+}
+#contact-form input {
+
+    border: dashed 2px maroon;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: black;
+    padding-left: 11px;
+}
+#contact-form .form-buttons {
+margin: 20px;
+color: maroon;
+font-size: 18px;
+width: 360px;
+
+}
+#contact-form .form-buttons:hover{
+
+border: solid maroon 5px;
+cursor: pointer;
+}
+#contact-form textarea {
+    border: dashed 3px maroon ;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 18px;
+    color: olivedrab;
+
+}
+
+/* CONTACT STYLE END*/
+
+

@@ -1,0 +1,34 @@
+table{
+  font-family: "Courier"
+    width: 650px;
+  font-size: 12px;
+ 
+  border-spacing: 2px;
+  
+  
+}
+
+thead >tr > th {
+  background-color: teal;
+  color: white;
+    height: 30px;
+  font-weight: bold;
+}
+
+thead tr:first-child th {
+  
+  background-color: darkgrey;
+}
+tbody tr{
+  height: 25px;
+  
+}
+
+tbody{
+  background-color: darkgrey;
+  
+}
+tbody tr td {
+  background-color: lightgray;
+  text-align: center;
+}

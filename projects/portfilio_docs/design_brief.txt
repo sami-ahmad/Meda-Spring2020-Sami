@@ -1,0 +1,26 @@
+Front-end Developer
+
+I design your dreams in your website
+
+Hi, i am Sami
+
+A) Choice of colors: color: black, background color: light green, header: white footer: light colors, border: blue 
+B) Introduction: Since I started working on my career even it was not easy and even it was not  specified that what kind of job I can get but finally I start working as logistic assistant in a government agency, after six month I have been promoted as logistic office, I appointed in my position as HR office, procurement office, procurement manager and my last position was procurement advisor which I was supervising procurement team,  I am passionate with studying to have my bachelor degree In computer science.
+C) Attached Resume
+D) Project page (Project 1, Project 2 , Project 3 ) 
+E) Project Images 
+F) Contact Page (Name, last name , contact, email, address, )
+G) Header and footer( logo and tagline, copy right, social media icons  )
+
+Example of Portfolios;
+1- Matt Farley :
+He is a freelancer designer with 8 years’ experience. He is a designer, front-end developer and Mentor. He designed his portfolio very simple and understandable, I found interesting is he used only two or three colors he used his symbol or logo as header at the left top and his skills in very short words at beginning in bottom of first page at main he mention about what languages he know what Dev tools he can work on it and his recent work  and in the footer at the end he mention about his social media and email and some motivation tagline.
+The link is below https://mattfarley.ca/
+
+2- Lounge Lizard
+To make a website look professional yet unconventional is not easy, but Lounge Lizard company makes it look effortless. From the brand showcase to the photo display of the workplace, this bar-themed website does a good job of establishing brand identity and promoting company reputation The link id below https://www.loungelizard.com
+
+3- Malt
+ He is a New York base freelancer design director. Over decade experience. For clients like Nike, Beats, Audi, Adidas and more He is a visual system, and digital products designer.
+He designed his portfolio motions and 3D, he designed his page to entertain you and make you search and know more about his work and creativity. The link is below https://maltegruhl.com/
+
