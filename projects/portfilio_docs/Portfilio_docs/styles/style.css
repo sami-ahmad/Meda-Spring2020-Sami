@@ -1,0 +1,175 @@
+body {
+    background-color: darkslategray;
+    
+}
+
+#sampic {
+
+    width: 350px;
+    height: 300px;
+    border: 2px rgb(77, 182, 68) solid;
+}
+#hh3{
+
+    color: aqua;
+    text-align: center;
+    border: 4px red solid;
+    border-bottom: 3px black solid;
+
+
+}
+header, main, footer  {
+
+    width: 900px;
+    background-color: rgb(116, 122, 78);
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 36px;
+    border: red 3px solid;
+   
+}
+
+#title-container {
+    margin-left: 200px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    background-color: rgb(6, 194, 116);
+    color:white;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: "Arial";
+
+}
+nav ul li:hover{
+    background-color: yellowgreen;
+}
+nav ul li a:visited{
+    color: white
+
+}
+footer{
+
+    color: maroon;
+    font-family: "Arial";
+    line-height: 48px;
+  }
+  #copyright{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#socail-links ul{
+
+    text-align: center;
+
+}
+
+#socail-links ul li {
+
+    display: inline-block;
+    border: solid 2px rgb(100, 233, 12);
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 25px;
+    line-height:100%;
+    box-sizing:border-box;
+}
+
+#socail-links ul li:hover{
+
+    color: white;
+    background-color: orange;
+}
+   
+#socail-links ul li a:link{
+
+    text-decoration: none;
+    color:maroon;
+}
+#socail-links ul li a:visited{
+    color: maroon;
+}
+
+#socail-links ul li a:hover{
+    color: white;
+
+}
+
+/* CONTACT STYLE */
+
+
+
+/* ABOUT ME STYLE */
+
+#about{
+
+    color: chocolate;
+    text-align: center;
+    border: 2px red solid;
+}
+
+/* PROJECT STYLE */
+#project {
+
+    color: salmon;
+    text-align: center;
+    border: 2px rebeccapurple solid;
+    border-bottom: 3px black solid;
+}
+
+div#flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#flex-gallery > figure {
+
+    padding: 1px;
+    margin: 3px;
+    border-radius: 20px;
+  
+
+}
+
+figure{
+
+    width: 120px;
+
+}
+
+figure, figure > img{
+
+    width: 220px;
+}
+figure > img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+figure > img {
+
+    border: solid yellow 3px;
+}
+
+#resume{
+
+    display: inline-block;
+    border: solid 2px rgb(100, 233, 12);
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 25px;
+    line-height:100%;
+    box-sizing:border-box;
+}
+
+#resume-link:hover{
+
+    color: white;
+    background-color: orange;
+}
